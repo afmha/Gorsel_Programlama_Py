@@ -8,7 +8,7 @@ pencere.maxsize(1000, 700) #Pencere boyutu en fazla 1000px, 700px boyutlarında 
 pencere.geometry("500x500+0+0") #Pencere boyutunu 500px, 500px olarak ayarla ve 0, 0 kordinatlarından başlat.
 pencere.state("normal") #Pencere drumu "normal"
 
-karsilama_mesaji = Label(text="Merhabalar, hoşgeldiniz.", fg="green")
+karsilama_mesaji = Label(text="Merhabalar, hoşgeldiniz.", fg="green") #Pencereye "Merhabalar, hoşgeldiniz." yazısını yeşil renkte yazdırdık.
 karsilama_mesaji.pack()
 
 pencere.update() #Pencere durumunu güncelliyoruz.
